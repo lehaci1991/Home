@@ -1,0 +1,10 @@
+C:\Git\Home4Us\Home4Us_Models\bin\Debug\Home4Us_Models.dll.config
+C:\Git\Home4Us\Home4Us_Models\bin\Debug\Home4Us_Models.dll
+C:\Git\Home4Us\Home4Us_Models\bin\Debug\Home4Us_Models.pdb
+C:\Git\Home4Us\Home4Us_Models\bin\Debug\EntityFramework.dll
+C:\Git\Home4Us\Home4Us_Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\Home4Us\Home4Us_Models\bin\Debug\EntityFramework.xml
+C:\Git\Home4Us\Home4Us_Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\Home4Us\Home4Us_Models\obj\Debug\Home4Us_Models.csprojResolveAssemblyReference.cache
+C:\Git\Home4Us\Home4Us_Models\obj\Debug\Home4Us_Models.dll
+C:\Git\Home4Us\Home4Us_Models\obj\Debug\Home4Us_Models.pdb
