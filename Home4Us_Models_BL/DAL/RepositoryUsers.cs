@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Home4Us_Models_BL.BSL
 {
-    class RepositoryUsers : GenericRepository<Users>, IDisposable
+    public class RepositoryUsers : GenericRepository<Users>, IDisposable
     {
         public RepositoryUsers()
             :this(new DataBaseConfiguration())
@@ -34,7 +34,21 @@ namespace Home4Us_Models_BL.BSL
             }
         }
 
-        public IEnumerable<Users> GetAllUser()
+        public Users GetUser(string name)
+        {
+            try
+            {
+                return GetAllUser().Single(x=>x.Email == name);
+            }
+            catch (Exception ex)
+            {
+                //log error??
+
+                throw;
+            }
+        }
+
+        public IList<Users> GetAllUser()
         {
             using (var context = new DataBaseConfiguration())
             {

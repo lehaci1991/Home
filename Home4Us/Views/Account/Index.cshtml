@@ -1,6 +1,119 @@
-﻿@{
+﻿@model Home4Us.Models.LoginViewModel
+
+@{
     ViewBag.Title = "Login";
 }
 
-<h2>Login</h2>
 
+<img id="themeImg" src="~/Content/pageTheme.jpg">
+
+<form id="formId" class="loginForm">
+    <div id="formHeader">
+        Go on and log in into your account
+    </div>
+    <div id="loginItems">
+
+        <div class="formBody">
+            <div class="itemSpacing">
+                <label for="info" class="littleWords"> You don't have an account?</label>
+                <label for="register" class="littleWords registerLink">Create your account.</label>
+            </div>
+
+            <hr />
+
+            <div class="somespace">
+                <div>
+                    @Html.LabelFor(m => m.Email)
+                </div>
+                <div>
+                    @Html.TextBoxFor(m => m.Email, new { @placeholder = "E-mail" })
+                </div>
+
+                <div>
+                    @Html.LabelFor(p => p.Password)
+                </div>
+                <div>
+                    @Html.PasswordFor(p => p.Password, new { @placeholder = "Password" })
+                </div>
+
+                <div>
+                    <!-- <div class="check">
+                    <label>Client<input type="radio" name="checkbox" ></label>
+                    <label>Agent<input type="radio" name="checkbox" ></label>
+                    </div> -->
+                    <button class="button">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="registerItems">
+        <div class="formBody">
+
+            <div>
+
+                <div>
+                    <label for="name">First Name</label>
+                </div>
+                <div>
+                    <input type="text" name="nume" placeholder="First Name">
+                </div>
+            </div>
+
+            <div>
+
+                <div>
+                    <label for="email">Second Name</label>
+                </div>
+                <div>
+                    <input type="text" name="prenume" placeholder="Second Name">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <label for="email">Email</label>
+                </div>
+                <div>
+                    <input type="text" name="email" placeholder="Email">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <label for="zipcode">Zip Code</label>
+                </div>
+                <div>
+                    <input type="text" name="zip" placeholder="Zip Code">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <label for="password">Password</label>
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="Password">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <label for="password">Confirm Password</label>
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="Confirm Password">
+                </div>
+            </div>
+
+            <button class="button">Register</button>
+
+        </div>
+    </div>
+</form>
+
+<div class="littleWords bottom">By registering you agree with our terms and conditions</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

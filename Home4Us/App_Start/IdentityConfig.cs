@@ -1,5 +1,11 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
+using Owin;
+using Home4Us.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNet.Identity.Owin;
+using Microsoft.Owin.Security.Cookies;
+using Microsoft.Owin;
 
 namespace Home4Us
 {

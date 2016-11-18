@@ -1,12 +1,109 @@
-﻿using Home4Us_Models;
+﻿using Home4Us.Models;
+using Home4Us_Models;
 using Home4Us_Models_BL.BSL;
 using Home4Us_Models_Interface;
+using Microsoft.AspNet.Identity.Owin;
+using Microsoft.Owin.Security;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using System.Web;
 using System.Web.Mvc;
 
 namespace Home4Us.Controllers
 {
+    [Authorize]
     public class AccountController : Controller
     {
+
+        //
+        // GET: /Account/Login
+        [AllowAnonymous]
+        public ActionResult Login(string returnUrl)
+        {
+            ViewBag.ReturnUrl = "Home";
+            return View();
+        }
+
+        //
+        // POST: /Account/Login
+        [HttpPost]
+        [AllowAnonymous]
+        public ActionResult Login(LoginViewModel model, string returnUrl)
+        {
+            if (ModelState.IsValid)
+            {
+                RepositoryUsers repo = new RepositoryUsers();
+                List<Users> users = (List<Users>)repo.GetAllUser();
+
+                foreach (var user in users)
+                {
+                    if (user.Email.Equals(model.Email) && user.Passwrd.Equals(model.Password))
+                        return RedirectToAction("Index", "Home");
+                }
+            }
+            ModelState.AddModelError("", "Invalid username or password");
+            return View(model);
+        }
+
+        [AllowAnonymous]
+        public ActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Register(RegisterViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = new Users {
+                    FirstName = model.FirstName,
+                    LastName = model.LastName,
+                    ZipCode = model.Zipcode,
+                    Email = model.Email,
+                    Passwrd = model.Password,
+                };
+
+                if (user.Passwrd != model.ConfirmPassword)
+                {
+                    ModelState.AddModelError("", "Confirm the password");
+                    return View(model);
+                }
+                RepositoryUsers repo = new RepositoryUsers();
+                List<Users> users =(List<Users>) repo.GetAllUser();
+
+                foreach (var u in users)
+                {
+                    if (u.Email.Equals(user.Email))
+                    {
+                        ModelState.AddModelError("",user.Email+" already exists");
+                        return View(model);
+                    }
+                }
+
+                return RedirectToAction("Index", "Home");
+
+                //var result = await UserManager.CreateAsync(user, model.Password);
+                //if (result.Succeeded)
+                //{
+                //    await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
+
+                //    // For more information on how to enable account confirmation and password reset please visit http://go.microsoft.com/fwlink/?LinkID=320771
+                //    // Send an email with this link
+                //    // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
+                //    // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
+                //    // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
+
+                //    return RedirectToAction("Index", "Home");
+                //}
+                //AddErrors(result);
+            }
+            return View(model);
+        }
+
         public UsersService Users
         {
             get { return new UsersService(); }

@@ -1,4 +1,5 @@
 ﻿using Home4Us_Models.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 

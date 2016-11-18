@@ -1,8 +1,10 @@
-﻿using System.Data.Entity;
+﻿using Home4Us.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
+using System.Data.Entity;
 
 namespace Home4Us_Models
 {
-    class DataBaseConfiguration : DbContext
+    public class DataBaseConfiguration : DbContext
     {
         public DataBaseConfiguration() : base("name=Test")
         {
