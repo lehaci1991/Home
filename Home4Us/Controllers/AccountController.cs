@@ -33,13 +33,11 @@ namespace Home4Us.Controllers
         {
             if (ModelState.IsValid)
             {
-                RepositoryUsers repo = new RepositoryUsers();
-                List<Users> users = (List<Users>)repo.GetAllUser();
-
-                foreach (var user in users)
+                Users user = UsersService.GetUser(model.Email);
+                if (user != null)
                 {
-                    if (user.Email.Equals(model.Email) && user.Passwrd.Equals(model.Password))
-                        return RedirectToAction("Index", "Home");
+                    if (user.Passwrd.Equals(model.Password))
+                            return RedirectToAction("Index", "Home");
                 }
             }
             ModelState.AddModelError("", "Invalid username or password");
@@ -59,32 +57,20 @@ namespace Home4Us.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new Users {
-                    FirstName = model.FirstName,
-                    LastName = model.LastName,
-                    ZipCode = model.Zipcode,
-                    Email = model.Email,
-                    Passwrd = model.Password,
-                };
-
-                if (user.Passwrd != model.ConfirmPassword)
+                if (model.Password != model.ConfirmPassword)
                 {
                     ModelState.AddModelError("", "Confirm the password");
                     return View(model);
                 }
-                RepositoryUsers repo = new RepositoryUsers();
-                List<Users> users =(List<Users>) repo.GetAllUser();
 
-                foreach (var u in users)
+                if(UsersService.GetUser(model.Email)==null)
+                    UsersService.AddUser(model.FirstName, model.LastName, model.Email,
+                        model.Password, model.Zipcode);
+                else
                 {
-                    if (u.Email.Equals(user.Email))
-                    {
-                        ModelState.AddModelError("",user.Email+" already exists");
-                        return View(model);
-                    }
+                    ModelState.AddModelError("", "Email is already registered");
                 }
-
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Login", "Account");
 
                 //var result = await UserManager.CreateAsync(user, model.Password);
                 //if (result.Succeeded)

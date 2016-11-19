@@ -43,8 +43,7 @@ namespace Home4Us_Models_BL.BSL
             catch (Exception ex)
             {
                 //log error??
-
-                throw;
+                return null;
             }
         }
 
@@ -60,6 +59,13 @@ namespace Home4Us_Models_BL.BSL
                 return context.Users.ToList();
             }
         } 
+
+        public void CreateUser(Users user)
+        {
+            var u = user;
+            Create(user);
+            Context.SaveChanges();
+        }
 
         public  void RemoveUser(int id)
         {
