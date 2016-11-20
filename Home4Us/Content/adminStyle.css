@@ -248,3 +248,34 @@ img.offerPictures {
     margin: 50px auto 50px 150px;
     width: 85%;
 }
+
+.adminLeft, .adminRight{
+    width: 48%;
+    padding-bottom: 20px;
+    display:inline;
+}
+
+.adminLeft{
+    float:left;
+    padding-left:5%;
+}
+
+.adminRight{
+    float: right;
+    padding-right:5%;
+}
+
+.adminCenter{
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.editor label{
+    float:left;
+    width: 120px;
+    text-align:center;
+}
+
+.editor input[type=text]{
+    width: 25%;
+}
