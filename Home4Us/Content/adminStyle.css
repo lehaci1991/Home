@@ -1,0 +1,250 @@
+﻿body{
+    padding: 0px;
+    margin: 0px;
+} 
+
+img.slider-item{
+    width: 100%;
+}
+
+.navbar-header h2{
+    color: white;
+}
+
+.no-margin{
+    margin: 0px !important;
+}
+
+#myCarousel{
+    width: 100%; 
+    transition:1s !important;
+}
+
+
+#Container-body h1{
+    text-align: center;
+}  
+
+#Container-body h2, #Container-body  h3{
+    color: blue;
+}
+
+#Container-body table{
+  margin-left: 80px;
+  width: 90%;
+} 
+
+#Container-body table tr:nth-child(1){
+    background: black;
+}
+
+#Container-body table td{
+    padding:8px;
+}
+#Container-manage{
+    margin: 10px;
+    padding: 20px;
+}
+
+#Container-manage h1{ 
+  padding: 10px;
+  margin: 0px;
+  background: black;
+  color: white;
+} 
+
+#table-manage{
+    background: gray;
+}
+
+#table-manage table{
+    margin-left: 80px;
+}
+
+#table-manage table td{
+    padding:7px;
+}
+
+#table-manage label{
+    font-size: 20px;
+}  
+
+#table-manage h2{
+    margin: 0px;
+}
+
+#table-manage input[type=number]{
+    width: 80px;
+    height: 20px;
+}
+
+#btn-uploads{
+    background: gray;
+    padding: 20px;
+    border: 0px;
+}
+
+#btn-add{
+    width: 300px;
+    height: 20px;
+    padding: 25px;
+    margin-left: 100%;
+}  
+
+
+
+#Container-footer table{
+    background: black; 
+    width: 100%;
+    margin-left: 10px;
+}
+#Container-footer table td{
+    padding:8px;
+    vertical-align: initial;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 3px;
+    padding: 0px;
+} 
+#space{
+    float: left;
+}
+#buttom{
+    margin: 20px;
+    background: rgba(0, 0, 255, 0.78);
+    border: none;
+    margin-left: 60px;
+}
+
+
+
+<!--modify-->
+
+#bottomBanner{
+    background: red;
+    color: white
+}
+
+/*.col-sm-12{
+    background: #232323 !important;
+    color: white;
+}*/
+
+.col {
+    padding-left: 0!;
+    padding-right: 0!;
+}
+
+.glyphicon-chevron-up {
+    font-size: 30px;
+    color: #232323;
+}
+
+#bottom-bar {
+    background-color: #337ab7;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+
+#aboutDescription {
+    width: 85%;
+    text-align: justify;
+    line-height: 25px;
+}
+
+a:hover, a:focus {
+    color: black;
+    text-decoration: none!important;
+}
+
+#paymentOptions, #goTop {
+    margin-top: 15px;
+}
+
+.payment {
+    display: inline;
+    vertical-align: middle;
+}
+
+.col-sm-4 h3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+   
+}
+
+.col-sm-4 h4 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+}
+
+#bottomBanner {
+    padding-bottom: 30px;
+}
+
+img.slider-item {
+    width: 100%;
+}
+
+.carousel-inner {
+    height: 80%;
+}
+
+.col-sm-4 a {
+    color: white;
+}
+
+.offersContainer, .offerImg{
+    background-color: transparent !important;
+}
+
+.offersContainer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+img.col-sm-12 {
+    height: 350px;
+}
+
+#offerLoadButton {
+    text-align: center;
+    /*font-weight: bold;*/
+    font-size: xx-large;
+}
+
+.offerPreview {
+    display: none;
+    margin-top: -230px;
+    width: 95% !important;
+    margin-left: 15px;
+    background: rgba(35,35,35, 0.8);
+}
+
+.offerInfo {
+    text-align: center;
+    color: white !important;
+    padding-bottom: 2.5px !important;
+    padding-top: 2.5px !important;
+    line-height: 0.75;
+}
+
+.propertyDescription, #propertyDetailedInfo {
+    background-color: lightgray;
+}
+
+.propertyInformation > * {
+    color: #232323 !important;
+}
+
+img.offerPictures {
+    height: 100% !important;
+}
+
+.propertyDescription h2, .propertyDescription h4 {
+    margin: 50px auto 50px 150px;
+    width: 85%;
+}

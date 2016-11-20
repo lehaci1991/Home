@@ -1,0 +1,87 @@
+﻿@model Home4Us.Models.RegisterViewModel
+
+@{
+    ViewBag.Title = "Register";
+}
+<img id="themeImg" src="~/Content/pageTheme.jpg">
+
+
+
+<section id="formId" class="registerForm">
+    <div id="formHeader">
+        Go on and crate an account
+    </div>
+@using (Html.BeginForm("Register", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div id="registerItems">
+        <div class="formBody">
+
+            <div>
+                @Html.ValidationSummary(true)
+                <div>
+                    @Html.LabelFor(f=>f.FirstName)
+                </div>
+                <div>
+                    @Html.ValidationMessageFor(m => m.FirstName)
+                    @Html.TextBoxFor(f=>f.FirstName, new { @placeholder = "First Name" })
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    @Html.LabelFor(l=>l.LastName)
+                </div>
+                <div>
+                    @Html.ValidationMessageFor(m => m.LastName)
+                    @Html.TextBoxFor(l=>l.LastName, new { @placeholder = "Last Name" })
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    @Html.LabelFor(e=>e.Email)
+                </div>
+                <div>
+                    @Html.ValidationMessageFor(m => m.Email)
+                    @Html.TextBoxFor(e=>e.Email, new { @placeholder = "E-mail" })
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    @Html.LabelFor(z=>z.Zipcode)
+                </div>
+                <div>
+                    @Html.ValidationMessageFor(m => m.Zipcode)
+                    @Html.TextBoxFor(z=>z.Zipcode, new { @placeholder="Zip Code"})
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    @Html.LabelFor(l=>l.Password)
+                </div>
+                <div>
+                    @Html.ValidationMessageFor(m => m.Password)
+                    @Html.PasswordFor(p=>p.Password, new { @placeholder = "Password" })
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    @Html.LabelFor(c=>c.ConfirmPassword)
+                </div>
+                <div>
+                    @Html.ValidationMessageFor(m => m.ConfirmPassword)
+                    @Html.PasswordFor(p=>p.ConfirmPassword, new { @placeholder = "Confirm Password" })
+                </div>
+            </div>
+
+            <button class="button">Register</button>
+
+        </div>
+    </div>
+}
+</section>

@@ -1,0 +1,10 @@
+C:\Git\Home4Us\Home4Us_Models_Interface\bin\Debug\Home4Us_Models_Interface.dll
+C:\Git\Home4Us\Home4Us_Models_Interface\bin\Debug\Home4Us_Models_Interface.pdb
+C:\Git\Home4Us\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.csprojResolveAssemblyReference.cache
+C:\Git\Home4Us\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.dll
+C:\Git\Home4Us\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.pdb
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us_Models_Interface\bin\Debug\Home4Us_Models_Interface.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us_Models_Interface\bin\Debug\Home4Us_Models_Interface.pdb
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.csprojResolveAssemblyReference.cache
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.pdb
