@@ -1,0 +1,338 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow: visible !important;
+}
+
+.navbar-header h2{
+    color: white;
+}
+
+.no-margin{
+    margin: 0px !important;
+}
+
+#myCarousel{
+    width: 100%;
+}
+
+
+#Container-body h1{
+    text-align: center;
+}  
+
+#Container-body h2, #Container-body  h3{
+    color: blue;
+}
+
+#Container-body table{
+  margin-left: 80px;
+  width: 90%;
+} 
+
+#Container-body table tr:nth-child(1){
+    background: black;
+}
+
+#Container-body table td{
+    padding:8px;
+}
+#Container-manage{
+    margin: 10px;
+    padding: 20px;
+}
+
+#Container-manage h1{ 
+  padding: 10px;
+  margin: 0px;
+  background: black;
+  color: white;
+} 
+
+#table-manage{
+    background: gray;
+}
+
+#table-manage table{
+    margin-left: 80px;
+}
+
+#table-manage table td{
+    padding:7px;
+}
+
+#table-manage label{
+    font-size: 20px;
+}  
+
+#table-manage h2{
+    margin: 0px;
+}
+
+#table-manage input[type=number]{
+    width: 80px;
+    height: 20px;
+}
+
+#btn-uploads{
+    background: gray;
+    padding: 20px;
+    border: 0px;
+}
+
+#btn-add{
+    width: 300px;
+    height: 20px;
+    padding: 25px;
+    margin-left: 100%;
+}  
+
+
+
+#Container-footer {
+    background-color: #232323; 
+    width: 100%;
+    /*margin-left: 10px;*/
+    position: relative;
+    margin-top: 0%;
+}
+#Container-footer table td{
+    padding:8px;
+    vertical-align: initial;
+}
+.logo{
+    width: 35px;
+    height: 100%;
+    padding: 0px;
+} 
+#space{
+    float: left;
+}
+#buttom{
+    margin: 20px;
+    background: rgba(0, 0, 255, 0.78);
+    border: none;
+    margin-left: 60px;
+}
+
+
+
+
+
+/*modification style*/
+
+.checkbox-size{
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
+#label-space{
+    margin-left: 10px;
+}
+
+.border-none{
+    border-left: none;
+    border-right: none;
+    border-top:none; 
+    background: gray;
+}
+
+#paymentOptions, #goTop {
+    margin-top: 15px;
+}
+
+.payment {
+    display: inline;
+    vertical-align: middle;
+}
+
+#bottomBanner {
+    padding-bottom: 30px;
+    height: 300px;
+    margin-top: 5%;
+}
+
+a.left.carousel-control, a.right.carousel-control {
+    width: 5%;
+    height: 100%;
+    margin-top: 0;
+}
+
+/* START Client-view CSS*/
+
+
+.glyphicon-chevron-up {
+    font-size: 30px;
+    color: #232323;
+}
+
+#bottom-bar {
+    background-color: #337ab7;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    height: 70px;
+}
+
+#aboutDescription {
+    width: 85%;
+    text-align: justify;
+    line-height: 25px;
+}
+
+a:hover, a:focus {
+    color: black;
+    text-decoration: none!important;
+}
+
+/*div#detailedOffer {
+    display: none;
+}*/
+
+
+.col-sm-4 h3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+   
+}
+
+.col-sm-4 h4 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+}
+
+.col-sm-4 a {
+    color: white;
+}
+
+#aboutUs > *, #contactUs > *, #otherLinks > *,
+#paymentOptions > *, #copyright > * {
+    color: white;
+}
+
+.offerPictureSlider, .propertyBasicInfo {
+    background-color: lightgrey;
+}
+
+.offerPictureSlider {
+    margin-left: 0px !important;
+    width: 65%;
+
+}
+
+.propertyBasicInfo {
+    padding-left: 5%;
+}
+
+.offerPictureSlider img {
+    border-right: 2px solid #232323;
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+#detailerOfferIntro {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.propertyBasicInfo > *, #detailerOfferIntro {
+    color: #232323 !important;
+}
+
+.col-sm-4.propertyBasicInfo {
+    width: 35%;
+    height: 655px;
+}
+
+#detailedOfferDescription {
+    margin-top: 40%;
+}
+
+#descriptionTitle, #descriptionContent, #propertyFeaturesTitle, #descriptionContent {
+    color: #232323 !important;
+    margin: 25px 25px 25px 60px;
+    width: 95%;
+    text-align: justify;
+}
+
+span.glyphicon.glyphicon-user {
+    font-size: 100px;
+}
+
+#agentDetails {
+    background-color: red;
+}
+
+#agentName,#agentRole, #agentPhoneNumber {
+    display: inline-block;
+}
+
+.col-sm-2.agentDetails {
+    background-color: lightgrey;
+    padding: 15px;
+    width: 300px;
+    display: inline;
+}
+
+.agentDetails {
+    padding-left: 5%;
+    background-color: lightgrey;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+
+#closeDetailedOffer {
+    background-color: #337ab7;
+    margin-top: 50px;
+}
+
+div#detailedOffer {
+    display: none;
+}
+
+img.col-sm-12.offerImg {
+    height: 375px;
+    margin-top: 50px;
+    z-index: 100;
+}
+
+.offerPreview {
+    display: none;
+    margin-top: -250px;
+    width: 95% !important;
+    margin-left: 15px;
+    background: rgba(35,35,35, 0.8);
+    padding: 2.5px;
+    margin-bottom: 100px;
+    z-index: 1000;
+}
+
+.offerInfo {
+    text-align: center;
+    color: white !important;
+    padding-bottom: 2.5px !important;
+    padding-top: 2.5px !important;
+    line-height: 0.75;
+}
+
+.active {
+    display: block !important;
+}
+
+div.loadButtonContainer {
+    margin-top: 50px;
+}
+
+a.btn.btn-info.btn-lg.glyphicon.glyphicon-repeat {
+    background: transparent;
+    color: #5bc0de;
+    border: none;
+    font-size: -webkit-xxx-large;
+    margin-left: 50%;
+    margin-right: auto;
+    padding-top: 50px;
+}
+/* END Client-view CSS*/
