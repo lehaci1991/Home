@@ -1,0 +1,64 @@
+﻿@model Home4Us.Models.LoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+
+<img id="themeImg" src="~/Content/pageTheme.jpg">
+
+<div id="formId" class="loginForm">
+    <div id="formHeader">
+        Go on and log in into your account
+    </div>
+    <div id="loginItems">
+
+        <section class="formBody">
+@using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+
+            <div class="itemSpacing">
+                <label for="info" class="littleWords"> You don't have an account?</label>
+               
+
+                <label for="register" class="littleWords registerLink">@Html.ActionLink("Create an account", "Register", "Account")</label>
+            </div>
+
+            <hr />
+            @Html.ValidationSummary(true)
+            <div class="somespace">
+                <div>
+                    @Html.LabelFor(m => m.Email)
+                </div>
+                <div>
+                    @Html.ValidationMessageFor(m=>m.Email)
+                    @Html.TextBoxFor(m => m.Email, new { @placeholder = "E-mail" })
+                </div>
+
+                <div>
+                    @Html.LabelFor(p => p.Password)
+                </div>
+                <div>
+                    @Html.ValidationMessageFor(p=>p.Password)
+                    @Html.PasswordFor(p => p.Password, new { @placeholder = "Password" })
+                </div>
+
+                <div>
+                    <!-- <div class="check">
+                    <label>Client<input type="radio" name="checkbox" ></label>
+                    <label>Agent<input type="radio" name="checkbox" ></label>
+                    </div> -->
+                    <button class="button">Login</button>
+                </div>
+            </div>
+}
+       </section>
+    </div>
+
+</div>
+
+<div class="littleWords bottom">By registering you agree with our terms and conditions</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

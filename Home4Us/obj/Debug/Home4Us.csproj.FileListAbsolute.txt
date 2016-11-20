@@ -1,0 +1,528 @@
+C:\Git\Home4Us\Home4Us\bin\ApplicationInsights.config
+C:\Git\Home4Us\Home4Us\bin\roslyn\csc.exe
+C:\Git\Home4Us\Home4Us\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Git\Home4Us\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Git\Home4Us\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Git\Home4Us\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Git\Home4Us\Home4Us\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Git\Home4Us\Home4Us\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Git\Home4Us\Home4Us\bin\roslyn\System.Collections.Immutable.dll
+C:\Git\Home4Us\Home4Us\bin\roslyn\System.Reflection.Metadata.dll
+C:\Git\Home4Us\Home4Us\bin\roslyn\vbc.exe
+C:\Git\Home4Us\Home4Us\bin\roslyn\VBCSCompiler.exe
+C:\Git\Home4Us\Home4Us\bin\roslyn\VBCSCompiler.exe.config
+C:\Git\Home4Us\Home4Us\bin\Home4Us.dll.config
+C:\Git\Home4Us\Home4Us\bin\Home4Us.dll
+C:\Git\Home4Us\Home4Us\bin\Home4Us.pdb
+C:\Git\Home4Us\Home4Us\bin\Antlr3.Runtime.dll
+C:\Git\Home4Us\Home4Us\bin\EntityFramework.dll
+C:\Git\Home4Us\Home4Us\bin\EntityFramework.SqlServer.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AI.DependencyCollector.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AI.Web.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AI.WindowsServer.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.ApplicationInsights.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Security.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Google.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Web.Infrastructure.dll
+C:\Git\Home4Us\Home4Us\bin\Newtonsoft.Json.dll
+C:\Git\Home4Us\Home4Us\bin\Owin.dll
+C:\Git\Home4Us\Home4Us\bin\System.Web.Helpers.dll
+C:\Git\Home4Us\Home4Us\bin\System.Web.Mvc.dll
+C:\Git\Home4Us\Home4Us\bin\System.Web.Optimization.dll
+C:\Git\Home4Us\Home4Us\bin\System.Web.Razor.dll
+C:\Git\Home4Us\Home4Us\bin\System.Web.WebPages.Deployment.dll
+C:\Git\Home4Us\Home4Us\bin\System.Web.WebPages.dll
+C:\Git\Home4Us\Home4Us\bin\System.Web.WebPages.Razor.dll
+C:\Git\Home4Us\Home4Us\bin\WebGrease.dll
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AI.DependencyCollector.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AI.Web.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AI.WindowsServer.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.ApplicationInsights.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Git\Home4Us\Home4Us\bin\System.Web.Helpers.xml
+C:\Git\Home4Us\Home4Us\bin\System.Web.Mvc.xml
+C:\Git\Home4Us\Home4Us\bin\System.Web.Optimization.xml
+C:\Git\Home4Us\Home4Us\bin\System.Web.Razor.xml
+C:\Git\Home4Us\Home4Us\bin\System.Web.WebPages.xml
+C:\Git\Home4Us\Home4Us\bin\System.Web.WebPages.Deployment.xml
+C:\Git\Home4Us\Home4Us\bin\System.Web.WebPages.Razor.xml
+C:\Git\Home4Us\Home4Us\bin\Antlr3.Runtime.pdb
+C:\Git\Home4Us\Home4Us\bin\Newtonsoft.Json.xml
+C:\Git\Home4Us\Home4Us\bin\EntityFramework.xml
+C:\Git\Home4Us\Home4Us\bin\EntityFramework.SqlServer.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Security.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Google.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Git\Home4Us\Home4Us\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Git\Home4Us\Home4Us\obj\Debug\Home4Us.csprojResolveAssemblyReference.cache
+C:\Git\Home4Us\Home4Us\obj\Debug\Home4Us.dll
+C:\Git\Home4Us\Home4Us\obj\Debug\Home4Us.pdb
+C:\Git\Home4Us\Home4Us\bin\Home4Us_Models.dll
+C:\Git\Home4Us\Home4Us\bin\Home4Us_Models.pdb
+C:\Git\Home4Us\Home4Us\bin\Home4Us_Models_BL.dll
+C:\Git\Home4Us\Home4Us\bin\Home4Us_Models_Interface.dll
+C:\Git\Home4Us\Home4Us\bin\Home4Us_Models_BL.pdb
+C:\Git\Home4Us\Home4Us\bin\Home4Us_Models_Interface.pdb
+C:\Git\New folder\Home4Us\bin\ApplicationInsights.config
+C:\Git\New folder\Home4Us\bin\roslyn\csc.exe
+C:\Git\New folder\Home4Us\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Git\New folder\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Git\New folder\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Git\New folder\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Git\New folder\Home4Us\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Git\New folder\Home4Us\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Git\New folder\Home4Us\bin\roslyn\System.Collections.Immutable.dll
+C:\Git\New folder\Home4Us\bin\roslyn\System.Reflection.Metadata.dll
+C:\Git\New folder\Home4Us\bin\roslyn\vbc.exe
+C:\Git\New folder\Home4Us\bin\roslyn\VBCSCompiler.exe
+C:\Git\New folder\Home4Us\bin\roslyn\VBCSCompiler.exe.config
+C:\Git\New folder\Home4Us\bin\Home4Us.dll.config
+C:\Git\New folder\Home4Us\bin\Home4Us.dll
+C:\Git\New folder\Home4Us\bin\Home4Us.pdb
+C:\Git\New folder\Home4Us\bin\Antlr3.Runtime.dll
+C:\Git\New folder\Home4Us\bin\EntityFramework.dll
+C:\Git\New folder\Home4Us\bin\EntityFramework.SqlServer.dll
+C:\Git\New folder\Home4Us\bin\Home4Us_Models.dll
+C:\Git\New folder\Home4Us\bin\Home4Us_Models_BL.dll
+C:\Git\New folder\Home4Us\bin\Home4Us_Models_Interface.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.AI.DependencyCollector.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.AI.Web.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.AI.WindowsServer.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.ApplicationInsights.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Security.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Security.Google.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Git\New folder\Home4Us\bin\Microsoft.Web.Infrastructure.dll
+C:\Git\New folder\Home4Us\bin\Newtonsoft.Json.dll
+C:\Git\New folder\Home4Us\bin\Owin.dll
+C:\Git\New folder\Home4Us\bin\System.Web.Helpers.dll
+C:\Git\New folder\Home4Us\bin\System.Web.Mvc.dll
+C:\Git\New folder\Home4Us\bin\System.Web.Optimization.dll
+C:\Git\New folder\Home4Us\bin\System.Web.Razor.dll
+C:\Git\New folder\Home4Us\bin\System.Web.WebPages.Deployment.dll
+C:\Git\New folder\Home4Us\bin\System.Web.WebPages.dll
+C:\Git\New folder\Home4Us\bin\System.Web.WebPages.Razor.dll
+C:\Git\New folder\Home4Us\bin\WebGrease.dll
+C:\Git\New folder\Home4Us\bin\Home4Us_Models.pdb
+C:\Git\New folder\Home4Us\bin\Home4Us_Models_BL.pdb
+C:\Git\New folder\Home4Us\bin\Home4Us_Models_Interface.pdb
+C:\Git\New folder\Home4Us\bin\Microsoft.AI.DependencyCollector.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.AI.Web.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.AI.WindowsServer.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.ApplicationInsights.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Git\New folder\Home4Us\bin\System.Web.Helpers.xml
+C:\Git\New folder\Home4Us\bin\System.Web.Mvc.xml
+C:\Git\New folder\Home4Us\bin\System.Web.Optimization.xml
+C:\Git\New folder\Home4Us\bin\System.Web.Razor.xml
+C:\Git\New folder\Home4Us\bin\System.Web.WebPages.xml
+C:\Git\New folder\Home4Us\bin\System.Web.WebPages.Deployment.xml
+C:\Git\New folder\Home4Us\bin\System.Web.WebPages.Razor.xml
+C:\Git\New folder\Home4Us\bin\Antlr3.Runtime.pdb
+C:\Git\New folder\Home4Us\bin\Newtonsoft.Json.xml
+C:\Git\New folder\Home4Us\bin\EntityFramework.xml
+C:\Git\New folder\Home4Us\bin\EntityFramework.SqlServer.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Security.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Security.Google.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Git\New folder\Home4Us\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Git\New folder\Home4Us\obj\Debug\Home4Us.csprojResolveAssemblyReference.cache
+C:\Git\New folder\Home4Us\obj\Debug\Home4Us.dll
+C:\Git\New folder\Home4Us\obj\Debug\Home4Us.pdb
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\ApplicationInsights.config
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\roslyn\csc.exe
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\roslyn\vbc.exe
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Home4Us.dll.config
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Home4Us.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Home4Us.pdb
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Antlr3.Runtime.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\EntityFramework.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\EntityFramework.SqlServer.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Home4Us_Models.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Home4Us_Models_BL.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Home4Us_Models_Interface.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AI.Web.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Security.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Newtonsoft.Json.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Owin.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\System.Web.Helpers.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\System.Web.Mvc.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\System.Web.Optimization.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\System.Web.Razor.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\System.Web.WebPages.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\WebGrease.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Home4Us_Models.pdb
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Home4Us_Models_BL.pdb
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Home4Us_Models_Interface.pdb
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AI.Web.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\System.Web.Helpers.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\System.Web.Mvc.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\System.Web.Optimization.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\System.Web.Razor.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\System.Web.WebPages.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Antlr3.Runtime.pdb
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Newtonsoft.Json.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\EntityFramework.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\EntityFramework.SqlServer.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Security.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\obj\Debug\Home4Us.csprojResolveAssemblyReference.cache
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\obj\Debug\Home4Us.dll
+C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us\obj\Debug\Home4Us.pdb
+E:\Home4Us\Home4Us\bin\ApplicationInsights.config
+E:\Home4Us\Home4Us\bin\roslyn\csc.exe
+E:\Home4Us\Home4Us\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Home4Us\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Home4Us\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Home4Us\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Home4Us\Home4Us\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Home4Us\Home4Us\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Home4Us\Home4Us\bin\roslyn\System.Collections.Immutable.dll
+E:\Home4Us\Home4Us\bin\roslyn\System.Reflection.Metadata.dll
+E:\Home4Us\Home4Us\bin\roslyn\vbc.exe
+E:\Home4Us\Home4Us\bin\roslyn\VBCSCompiler.exe
+E:\Home4Us\Home4Us\bin\roslyn\VBCSCompiler.exe.config
+E:\Home4Us\Home4Us\bin\Home4Us.dll.config
+E:\Home4Us\Home4Us\bin\Home4Us.dll
+E:\Home4Us\Home4Us\bin\Home4Us.pdb
+E:\Home4Us\Home4Us\bin\Antlr3.Runtime.dll
+E:\Home4Us\Home4Us\bin\EntityFramework.dll
+E:\Home4Us\Home4Us\bin\EntityFramework.SqlServer.dll
+E:\Home4Us\Home4Us\bin\Home4Us_Models.dll
+E:\Home4Us\Home4Us\bin\Home4Us_Models_BL.dll
+E:\Home4Us\Home4Us\bin\Home4Us_Models_Interface.dll
+E:\Home4Us\Home4Us\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Home4Us\Home4Us\bin\Microsoft.AI.DependencyCollector.dll
+E:\Home4Us\Home4Us\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Home4Us\Home4Us\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Home4Us\Home4Us\bin\Microsoft.AI.Web.dll
+E:\Home4Us\Home4Us\bin\Microsoft.AI.WindowsServer.dll
+E:\Home4Us\Home4Us\bin\Microsoft.ApplicationInsights.dll
+E:\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Home4Us\Home4Us\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.dll
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Security.dll
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Google.dll
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Home4Us\Home4Us\bin\Microsoft.Web.Infrastructure.dll
+E:\Home4Us\Home4Us\bin\Newtonsoft.Json.dll
+E:\Home4Us\Home4Us\bin\Owin.dll
+E:\Home4Us\Home4Us\bin\System.Web.Helpers.dll
+E:\Home4Us\Home4Us\bin\System.Web.Mvc.dll
+E:\Home4Us\Home4Us\bin\System.Web.Optimization.dll
+E:\Home4Us\Home4Us\bin\System.Web.Razor.dll
+E:\Home4Us\Home4Us\bin\System.Web.WebPages.Deployment.dll
+E:\Home4Us\Home4Us\bin\System.Web.WebPages.dll
+E:\Home4Us\Home4Us\bin\System.Web.WebPages.Razor.dll
+E:\Home4Us\Home4Us\bin\WebGrease.dll
+E:\Home4Us\Home4Us\bin\Home4Us_Models.pdb
+E:\Home4Us\Home4Us\bin\Home4Us_Models_BL.pdb
+E:\Home4Us\Home4Us\bin\Home4Us_Models_Interface.pdb
+E:\Home4Us\Home4Us\bin\Microsoft.AI.DependencyCollector.xml
+E:\Home4Us\Home4Us\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Home4Us\Home4Us\bin\Microsoft.AI.Web.xml
+E:\Home4Us\Home4Us\bin\Microsoft.AI.WindowsServer.xml
+E:\Home4Us\Home4Us\bin\Microsoft.ApplicationInsights.xml
+E:\Home4Us\Home4Us\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Home4Us\Home4Us\bin\System.Web.Helpers.xml
+E:\Home4Us\Home4Us\bin\System.Web.Mvc.xml
+E:\Home4Us\Home4Us\bin\System.Web.Optimization.xml
+E:\Home4Us\Home4Us\bin\System.Web.Razor.xml
+E:\Home4Us\Home4Us\bin\System.Web.WebPages.xml
+E:\Home4Us\Home4Us\bin\System.Web.WebPages.Deployment.xml
+E:\Home4Us\Home4Us\bin\System.Web.WebPages.Razor.xml
+E:\Home4Us\Home4Us\bin\Antlr3.Runtime.pdb
+E:\Home4Us\Home4Us\bin\Newtonsoft.Json.xml
+E:\Home4Us\Home4Us\bin\EntityFramework.xml
+E:\Home4Us\Home4Us\bin\EntityFramework.SqlServer.xml
+E:\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Home4Us\Home4Us\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.xml
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Security.xml
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Google.xml
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Home4Us\Home4Us\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Home4Us\Home4Us\obj\Debug\Home4Us.csprojResolveAssemblyReference.cache
+E:\Home4Us\Home4Us\obj\Debug\Home4Us.dll
+E:\Home4Us\Home4Us\obj\Debug\Home4Us.pdb
+E:\Home4Us\Home\Home4Us\bin\ApplicationInsights.config
+E:\Home4Us\Home\Home4Us\bin\roslyn\csc.exe
+E:\Home4Us\Home\Home4Us\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Home4Us\Home\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Home4Us\Home\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Home4Us\Home\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Home4Us\Home\Home4Us\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Home4Us\Home\Home4Us\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Home4Us\Home\Home4Us\bin\roslyn\System.Collections.Immutable.dll
+E:\Home4Us\Home\Home4Us\bin\roslyn\System.Reflection.Metadata.dll
+E:\Home4Us\Home\Home4Us\bin\roslyn\vbc.exe
+E:\Home4Us\Home\Home4Us\bin\roslyn\VBCSCompiler.exe
+E:\Home4Us\Home\Home4Us\bin\roslyn\VBCSCompiler.exe.config
+E:\Home4Us\Home\Home4Us\bin\Home4Us.dll.config
+E:\Home4Us\Home\Home4Us\bin\Home4Us.dll
+E:\Home4Us\Home\Home4Us\bin\Home4Us.pdb
+E:\Home4Us\Home\Home4Us\bin\Antlr3.Runtime.dll
+E:\Home4Us\Home\Home4Us\bin\EntityFramework.dll
+E:\Home4Us\Home\Home4Us\bin\EntityFramework.SqlServer.dll
+E:\Home4Us\Home\Home4Us\bin\Home4Us_Models.dll
+E:\Home4Us\Home\Home4Us\bin\Home4Us_Models_BL.dll
+E:\Home4Us\Home\Home4Us\bin\Home4Us_Models_Interface.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AI.DependencyCollector.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AI.Web.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AI.WindowsServer.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.ApplicationInsights.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Security.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Security.Google.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Web.Infrastructure.dll
+E:\Home4Us\Home\Home4Us\bin\Newtonsoft.Json.dll
+E:\Home4Us\Home\Home4Us\bin\Owin.dll
+E:\Home4Us\Home\Home4Us\bin\System.Web.Helpers.dll
+E:\Home4Us\Home\Home4Us\bin\System.Web.Mvc.dll
+E:\Home4Us\Home\Home4Us\bin\System.Web.Optimization.dll
+E:\Home4Us\Home\Home4Us\bin\System.Web.Razor.dll
+E:\Home4Us\Home\Home4Us\bin\System.Web.WebPages.Deployment.dll
+E:\Home4Us\Home\Home4Us\bin\System.Web.WebPages.dll
+E:\Home4Us\Home\Home4Us\bin\System.Web.WebPages.Razor.dll
+E:\Home4Us\Home\Home4Us\bin\WebGrease.dll
+E:\Home4Us\Home\Home4Us\bin\Home4Us_Models.pdb
+E:\Home4Us\Home\Home4Us\bin\Home4Us_Models_BL.pdb
+E:\Home4Us\Home\Home4Us\bin\Home4Us_Models_Interface.pdb
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AI.DependencyCollector.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AI.Web.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AI.WindowsServer.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.ApplicationInsights.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Home4Us\Home\Home4Us\bin\System.Web.Helpers.xml
+E:\Home4Us\Home\Home4Us\bin\System.Web.Mvc.xml
+E:\Home4Us\Home\Home4Us\bin\System.Web.Optimization.xml
+E:\Home4Us\Home\Home4Us\bin\System.Web.Razor.xml
+E:\Home4Us\Home\Home4Us\bin\System.Web.WebPages.xml
+E:\Home4Us\Home\Home4Us\bin\System.Web.WebPages.Deployment.xml
+E:\Home4Us\Home\Home4Us\bin\System.Web.WebPages.Razor.xml
+E:\Home4Us\Home\Home4Us\bin\Antlr3.Runtime.pdb
+E:\Home4Us\Home\Home4Us\bin\Newtonsoft.Json.xml
+E:\Home4Us\Home\Home4Us\bin\EntityFramework.xml
+E:\Home4Us\Home\Home4Us\bin\EntityFramework.SqlServer.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Security.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Security.Google.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Home4Us\Home\Home4Us\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Home4Us\Home\Home4Us\obj\Debug\Home4Us.csprojResolveAssemblyReference.cache
+E:\Home4Us\Home\Home4Us\obj\Debug\Home4Us.dll
+E:\Home4Us\Home\Home4Us\obj\Debug\Home4Us.pdb
+C:\Git\Home\Home-master\Home4Us\bin\ApplicationInsights.config
+C:\Git\Home\Home-master\Home4Us\bin\roslyn\csc.exe
+C:\Git\Home\Home-master\Home4Us\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Git\Home\Home-master\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Git\Home\Home-master\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Git\Home\Home-master\Home4Us\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Git\Home\Home-master\Home4Us\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Git\Home\Home-master\Home4Us\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Git\Home\Home-master\Home4Us\bin\roslyn\System.Collections.Immutable.dll
+C:\Git\Home\Home-master\Home4Us\bin\roslyn\System.Reflection.Metadata.dll
+C:\Git\Home\Home-master\Home4Us\bin\roslyn\vbc.exe
+C:\Git\Home\Home-master\Home4Us\bin\roslyn\VBCSCompiler.exe
+C:\Git\Home\Home-master\Home4Us\bin\roslyn\VBCSCompiler.exe.config
+C:\Git\Home\Home-master\Home4Us\bin\Home4Us.dll.config
+C:\Git\Home\Home-master\Home4Us\bin\Home4Us.dll
+C:\Git\Home\Home-master\Home4Us\bin\Home4Us.pdb
+C:\Git\Home\Home-master\Home4Us\bin\Antlr3.Runtime.dll
+C:\Git\Home\Home-master\Home4Us\bin\EntityFramework.dll
+C:\Git\Home\Home-master\Home4Us\bin\EntityFramework.SqlServer.dll
+C:\Git\Home\Home-master\Home4Us\bin\Home4Us_Models.dll
+C:\Git\Home\Home-master\Home4Us\bin\Home4Us_Models_BL.dll
+C:\Git\Home\Home-master\Home4Us\bin\Home4Us_Models_Interface.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AI.DependencyCollector.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AI.Web.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AI.WindowsServer.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.ApplicationInsights.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Security.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Security.Google.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Web.Infrastructure.dll
+C:\Git\Home\Home-master\Home4Us\bin\Newtonsoft.Json.dll
+C:\Git\Home\Home-master\Home4Us\bin\Owin.dll
+C:\Git\Home\Home-master\Home4Us\bin\System.Web.Helpers.dll
+C:\Git\Home\Home-master\Home4Us\bin\System.Web.Mvc.dll
+C:\Git\Home\Home-master\Home4Us\bin\System.Web.Optimization.dll
+C:\Git\Home\Home-master\Home4Us\bin\System.Web.Razor.dll
+C:\Git\Home\Home-master\Home4Us\bin\System.Web.WebPages.Deployment.dll
+C:\Git\Home\Home-master\Home4Us\bin\System.Web.WebPages.dll
+C:\Git\Home\Home-master\Home4Us\bin\System.Web.WebPages.Razor.dll
+C:\Git\Home\Home-master\Home4Us\bin\WebGrease.dll
+C:\Git\Home\Home-master\Home4Us\bin\Home4Us_Models.pdb
+C:\Git\Home\Home-master\Home4Us\bin\Home4Us_Models_BL.pdb
+C:\Git\Home\Home-master\Home4Us\bin\Home4Us_Models_Interface.pdb
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AI.DependencyCollector.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AI.Web.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AI.WindowsServer.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.ApplicationInsights.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Git\Home\Home-master\Home4Us\bin\System.Web.Helpers.xml
+C:\Git\Home\Home-master\Home4Us\bin\System.Web.Mvc.xml
+C:\Git\Home\Home-master\Home4Us\bin\System.Web.Optimization.xml
+C:\Git\Home\Home-master\Home4Us\bin\System.Web.Razor.xml
+C:\Git\Home\Home-master\Home4Us\bin\System.Web.WebPages.xml
+C:\Git\Home\Home-master\Home4Us\bin\System.Web.WebPages.Deployment.xml
+C:\Git\Home\Home-master\Home4Us\bin\System.Web.WebPages.Razor.xml
+C:\Git\Home\Home-master\Home4Us\bin\Antlr3.Runtime.pdb
+C:\Git\Home\Home-master\Home4Us\bin\Newtonsoft.Json.xml
+C:\Git\Home\Home-master\Home4Us\bin\EntityFramework.xml
+C:\Git\Home\Home-master\Home4Us\bin\EntityFramework.SqlServer.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Security.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Security.Google.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Git\Home\Home-master\Home4Us\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Git\Home\Home-master\Home4Us\obj\Debug\Home4Us.csprojResolveAssemblyReference.cache
+C:\Git\Home\Home-master\Home4Us\obj\Debug\Home4Us.dll
+C:\Git\Home\Home-master\Home4Us\obj\Debug\Home4Us.pdb
