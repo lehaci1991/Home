@@ -54,3 +54,17 @@ E:\Home4Us\Home\Home4Us_Models_BL\bin\Debug\EntityFramework.SqlServer.xml
 E:\Home4Us\Home\Home4Us_Models_BL\obj\Debug\Home4Us_Models_BL.csprojResolveAssemblyReference.cache
 E:\Home4Us\Home\Home4Us_Models_BL\obj\Debug\Home4Us_Models_BL.dll
 E:\Home4Us\Home\Home4Us_Models_BL\obj\Debug\Home4Us_Models_BL.pdb
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_BL\bin\Debug\Home4Us_Models_BL.dll.config
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_BL\bin\Debug\Home4Us_Models_BL.dll
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_BL\bin\Debug\Home4Us_Models_BL.pdb
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_BL\bin\Debug\EntityFramework.dll
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_BL\bin\Debug\Home4Us_Models.dll
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_BL\bin\Debug\Home4Us_Models_Interface.dll
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_BL\bin\Debug\Home4Us_Models.pdb
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_BL\bin\Debug\Home4Us_Models_Interface.pdb
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_BL\bin\Debug\EntityFramework.xml
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_BL\obj\Debug\Home4Us_Models_BL.csprojResolveAssemblyReference.cache
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_BL\obj\Debug\Home4Us_Models_BL.dll
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_BL\obj\Debug\Home4Us_Models_BL.pdb

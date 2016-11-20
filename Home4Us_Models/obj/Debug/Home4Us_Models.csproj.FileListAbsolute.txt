@@ -32,3 +32,17 @@ E:\Home4Us\Home4Us_Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 E:\Home4Us\Home4Us_Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 E:\Home4Us\Home4Us_Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 E:\Home4Us\Home4Us_Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models\bin\Debug\Home4Us_Models.dll.config
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models\bin\Debug\Home4Us_Models.dll
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models\bin\Debug\Home4Us_Models.pdb
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models\bin\Debug\EntityFramework.dll
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models\bin\Debug\EntityFramework.xml
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models\obj\Debug\Home4Us_Models.csprojResolveAssemblyReference.cache
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models\obj\Debug\Home4Us_Models.dll
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models\obj\Debug\Home4Us_Models.pdb
