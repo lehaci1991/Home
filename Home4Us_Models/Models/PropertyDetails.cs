@@ -16,7 +16,6 @@ namespace Home4Us_Models
         public int SpaceM2 { get; set; }
 
         [Display(Name = "More Details")]
-
         [StringLength(500)]
         public string MoreDetails { get; set; }
 

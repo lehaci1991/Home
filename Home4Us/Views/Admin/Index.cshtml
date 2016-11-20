@@ -3,8 +3,6 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 
-
-
 }
 
 <div id="Container-head">
@@ -84,7 +82,7 @@
     <div id="Container-manage">
         <h1 class="glyphicon glyphicon-briefcase"> Manage your properties</h1>
         <div id="table-manage">
-            @using (Html.BeginForm("Index","Admin", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" })) {
+            @using (Html.BeginForm("Create","Admin", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" })) {
             <div class="adminCenter">
                 @Html.LabelFor(n => n.Property.Name)
                 @Html.TextBoxFor(n => n.Property.Name)
@@ -241,3 +239,4 @@
             </div>
         </div>
     </div>
+</div>

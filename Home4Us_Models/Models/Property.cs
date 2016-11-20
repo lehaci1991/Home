@@ -7,6 +7,7 @@ namespace Home4Us_Models
     public class Property : BaseClassID
     {
         [Required]
+        [StringLength(20)]
         public string Name { get; set; }
 
         [Required]
@@ -16,7 +17,6 @@ namespace Home4Us_Models
         public int DetailsId { get; set; }
 
         [Required]
-
         public int StatusId { get; set; }
 
         public virtual ICollection<Orders> Orders { get; set; }
