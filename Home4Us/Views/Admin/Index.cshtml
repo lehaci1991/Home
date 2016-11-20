@@ -1,9 +1,7 @@
-﻿
+﻿@model Home4Us.Models.PropertyView
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
-
-
 
 }
 
@@ -84,94 +82,107 @@
     <div id="Container-manage">
         <h1 class="glyphicon glyphicon-briefcase"> Manage your properties</h1>
         <div id="table-manage">
-            <table>
-                <tr>
-                    <td><label>Property Option</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Rent</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Sale</label></td>
-                </tr>
+            <div class="adminCenter">
+                @Html.LabelFor(n => n.Property.Name)
+                @Html.TextBoxFor(n => n.Property.Name)
+                @*@Html.ValidationMessageFor(m => m.Name)*@
+                </div>
+            <div>
+                <div class="adminLeft">
+                    @Html.LabelFor(n => n.Address.City)
+                    @Html.TextBoxFor(n => n.Address.City)
+                    @Html.ValidationMessageFor(m => m.Address.City)
 
-                <tr>
-                    <td><label for="name">Property name</label></td>
-                    <td><input type="text" id="name" class="border-none"></td>
-                </tr>
+                    @Html.LabelFor(n => n.Address.Block)
+                    @Html.TextBoxFor(n => n.Address.Block)
+                    @Html.ValidationMessageFor(m => m.Address.Block)
 
-                <tr>
-                    <td><label for="address">Property address</label></td>
-                    <td><input type="text" id="address" class="border-none"></td>
-                </tr>
+                    @Html.LabelFor(p => p.Details.Price)
+                    @Html.TextBoxFor(p => p.Details.Price)
+                    @Html.ValidationMessageFor(m => m.Details.Price)
+                </div>
+                <div class="adminRight">
+                    @Html.LabelFor(n => n.Address.Street)
+                    @Html.TextBoxFor(n => n.Address.Street)
+                    @Html.ValidationMessageFor(m => m.Address.Street)
 
-                <tr>
-                    <td><label for="address">Property price</label></td>
-                    <td><input type="number" id="price" class="border-none"><label>$/month</label></td>
+                    @Html.LabelFor(n => n.Address.Apartment)
+                    @Html.TextBoxFor(n => n.Address.Apartment)
+                    @Html.ValidationMessageFor(m => m.Address.Apartment)
 
-                    <td>
-                        <label for="typeS">Type </label>
-                        <select id="typeS">
-                            <option type="penthouse">penthhouse</option>
-                            <option type="singleRoom">singleroom</option>
-                            <option type="doubleroom">doubleroom</option>
-                        </select>
-                    </td>
-                    <td>
-                        <lable for="size">Size</lable>
-                        <input type="number" id="size" class="border-none">
-                        <label>m<sup>2</sup></label>
-                    </td>
-                </tr>
+                    @Html.LabelFor(p => p.Details.SpaceM2)
+                    @Html.TextBoxFor(p => p.Details.SpaceM2, new { @placeholder="m2" })
+                    @Html.ValidationMessageFor(m => m.Details.SpaceM2)
+                </div>
+            </div>
+            <div class="adminLeft">
 
-                <tr>
-                    <td><label from="bedrooms">Bedrooms</label><input type="number" id="bedrooms" class="border-none"></td>
-                    <td><label from="livingrooms">Livingrooms</label><input type="number" id="livingrooms" class="border-none"></td>
-                    <td><label from="kitchen">Kitchen</label><input type="number" id="kitchen" class="border-none"></td>
-                    <td><label from="bathrooms">Bathrooms</label><input type="number" id="bathrooms" class="border-none"></td>
-                    <td><label from="totals">Totals</label><input type="number" id="totals" class="border-none"></td>
-                </tr>
+                <div class="adminLeft">
+                        
+                    <div class="editor">
+                        @Html.LabelFor(n => n.Details.RoomsId.Bathrooms) @Html.TextBoxFor(n => n.Details.RoomsId.Bathrooms)
+                        @Html.ValidationMessageFor(m => m.Details.RoomsId.Bathrooms)
+                    </div>
+                    <div class="editor">
+                        @Html.LabelFor(n => n.Details.RoomsId.Bedrooms) @Html.TextBoxFor(n => n.Details.RoomsId.Bedrooms)
+                        @Html.ValidationMessageFor(m => m.Details.RoomsId.Bathrooms)
+                    </div>
+                </div>
+                <div class="adminRight">
 
-                <tr>
-                    <td><h2>Other property features</h2></td>
-                </tr>
+                    <div class="editor">
+                        @Html.LabelFor(n => n.Details.RoomsId.Balconys) @Html.TextBoxFor(n => n.Details.RoomsId.Balconys)
+                        @Html.ValidationMessageFor(m => m.Details.RoomsId.Balconys)
+                    </div>
+                    <div class="editor">
+                        @Html.LabelFor(n => n.Details.RoomsId.Kitchens) @Html.TextBoxFor(n => n.Details.RoomsId.Kitchens)
+                        @Html.ValidationMessageFor(m => m.Details.RoomsId.Kitchens)
+                    </div>
+                </div>
+            </div>
 
-                <tr>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Balcony</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Fiber optic</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Lake</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Metro</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Drier</label></td>
-                </tr>
+            <div class="adminLeft">
+                <div class="adminLeft">
 
-                <tr>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Garage</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" unchecked><label id="label-space">TV</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Park</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" unchecked><label id="label-space">Garage</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Quiet area</label></td>
-                </tr>
+                    <div class="editor">
+                        @Html.LabelFor(n => n.Details.RoomsId.Livingrooms) @Html.TextBoxFor(n => n.Details.RoomsId.Livingrooms)
+                        @Html.ValidationMessageFor(m => m.Details.RoomsId.Livingrooms)
+                    </div>
+                    <div class="editor">
+                        @Html.LabelFor(n => n.Details.RoomsId.Storage) @Html.TextBoxFor(n => n.Details.RoomsId.Storage)
+                        @Html.ValidationMessageFor(m => m.Details.RoomsId.Storage)
+                    </div>
+                </div>
+            </div>
 
-                <tr>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" unchecked><label id="label-space">Air conditon</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">All furniture</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" unchecked><label id="label-space">Bus</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Hospital</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Fence</label></td>
-                </tr>
+                <h2>Other property features</h2>
 
-                <tr>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Inernet</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Storage room</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" unchecked><label id="label-space">Schools</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Heated floor</label></td>
-                    <td><input type="checkbox" class="checkbox-size" name="quux[1]" checked><label id="label-space">Pool</label></td>
-                </tr>
-
-                <tr>
+            <div class="adminLeft">
+                  <div class="adminLeft">
+                      <input type="checkbox" class="checkbox" name="quux[1]" checked /><label id="label-space">Balcony</label>
+                      <input type="checkbox" class="checkbox" name="quux[1]" checked /><label id="label-space">Metro</label>
+                  </div>
+                <div class="adminRight">
+                    <input type="checkbox" class="checkbox" name="quux[1]" checked /><label id="label-space">Drier</label>
+                    <input type="checkbox" class="checkbox" name="quux[1]" checked /><label id="label-space">Garage</label>
+                    <input type="checkbox" class="checkbox" name="quux[1]" unchecked /><label id="label-space">TV</label>
+                </div>
+            </div>
+            <div class="adminRight">
+                <div class="adminLeft">
+                    <input type="checkbox" class="checkbox" name="quux[1]" unchecked><label id="label-space">Bus</label>
+                    <input type="checkbox" class="checkbox" name="quux[1]" checked><label id="label-space">Quiet area</label>
+                    <input type="checkbox" class="checkbox" name="quux[1]" checked><label id="label-space">Internet</label>
+                </div>
+                <div class="adminRight">
+                    <input type="checkbox" class="checkbox" name="quux[1]" checked><label id="label-space">Storage room</label>
+                    <input type="checkbox" class="checkbox" name="quux[1]" checked><label id="label-space">Pool</label>
+                </div>
+            </div>
+            <br />
                     <td><button id="btn-uploads" class="glyphicon glyphicon-level-up "></button><label>Uploads photos:</label><a href="#img1">img.jpg</a></td>
-                </tr>
 
-                <tr>
-                    <td><button id="btn-add" type="button" class="btn btn-primary">Add</button></td>
-                </tr>
-            </table>
+                    <td><button id="btn-add" type="submit" class="btn btn-primary">Add</button></td>
         </div>
     </div>
 
@@ -226,3 +237,4 @@
             </div>
         </div>
     </div>
+</div>

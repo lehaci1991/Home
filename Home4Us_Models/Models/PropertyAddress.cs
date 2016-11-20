@@ -6,8 +6,6 @@ namespace Home4Us_Models
 {
     public class PropertyAddress : BaseClassID
     {
-        
-
         [Required]
         [StringLength(20)]
         public string City { get; set; }
@@ -20,6 +18,7 @@ namespace Home4Us_Models
         [StringLength(20)]
         public string Block { get; set; }
 
+        [Required]
         public int Apartment { get; set; }
 
         public virtual ICollection<Property> Property { get; set; }
