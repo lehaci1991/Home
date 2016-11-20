@@ -196,10 +196,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-<<<<<<< HEAD
     <Compile Include="Controllers\AdminController.cs" />
-=======
->>>>>>> c9e61d4b4903094bd14f1bae4b0705a5c3059269
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -208,15 +205,12 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Content Include="Content\adminStyle.css" />
     <Content Include="Resources\banner1.png" />
     <Content Include="Resources\banner2.jpg" />
     <Content Include="Resources\banner3.jpg" />
     <Content Include="Resources\mastercard.png" />
     <Content Include="Resources\visa.png" />
-=======
->>>>>>> c9e61d4b4903094bd14f1bae4b0705a5c3059269
     <Content Include="Scripts\Login.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -229,6 +223,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -261,10 +256,7 @@
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\Admin\Index.cshtml" />
-=======
->>>>>>> c9e61d4b4903094bd14f1bae4b0705a5c3059269
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

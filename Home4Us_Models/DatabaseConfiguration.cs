@@ -1,8 +1,5 @@
 ﻿using Home4Us.Models;
-<<<<<<< HEAD
 using Home4Us_Models.Models;
-=======
->>>>>>> c9e61d4b4903094bd14f1bae4b0705a5c3059269
 using Microsoft.AspNet.Identity.EntityFramework;
 using System.Data.Entity;
 
@@ -19,10 +16,7 @@ namespace Home4Us_Models
         public virtual DbSet<PropertyDetails> PropertyDetails { get; set; }
         public virtual DbSet<PropertyStatus> PropertyStatus { get; set; }
         public virtual DbSet<Users> Users { get; set; }
-<<<<<<< HEAD
         public virtual DbSet<Rooms> Rooms { get; set; }
-=======
->>>>>>> c9e61d4b4903094bd14f1bae4b0705a5c3059269
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -30,10 +24,6 @@ namespace Home4Us_Models
                   .HasMany(e => e.Orders)
                   .WithRequired(e => e.Property);
 
-<<<<<<< HEAD
-=======
-
->>>>>>> c9e61d4b4903094bd14f1bae4b0705a5c3059269
             modelBuilder.Entity<PropertyAddress>()
                 .Property(e => e.City);
 
@@ -90,7 +80,6 @@ namespace Home4Us_Models
                 .WithRequired(e => e.Users)
                 .HasForeignKey(e => e.UserId);
 
-<<<<<<< HEAD
             modelBuilder.Entity<Rooms>()
                 .Property(e=>e.Balconys);
 
@@ -106,8 +95,6 @@ namespace Home4Us_Models
             modelBuilder.Entity<Rooms>()
                 .Property(e => e.Storage);
 
-=======
->>>>>>> c9e61d4b4903094bd14f1bae4b0705a5c3059269
         }
     }
 }
