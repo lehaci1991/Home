@@ -54,12 +54,16 @@ namespace Home4Us_Models_BL.BSL
         public static IEnumerable<Users> GetAllUsers()
         {
             return new RepositoryUsers().GetAllUser();
+<<<<<<< HEAD
         }
 
         public  IEnumerable<Users> GetUsers()
         {
             return new RepositoryUsers().GetAllUser();
         }
+=======
+        } 
+>>>>>>> c9e61d4b4903094bd14f1bae4b0705a5c3059269
 
         public static void RemoveUsers(int id)
         {

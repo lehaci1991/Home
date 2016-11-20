@@ -8,3 +8,11 @@ C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us_Models_Interface\bin\Debug\Home4U
 C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.csprojResolveAssemblyReference.cache
 C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.dll
 C:\Users\Nagy\Documents\GitHub\Home4Us\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.pdb
+<<<<<<< HEAD
+=======
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_Interface\bin\Debug\Home4Us_Models_Interface.dll
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_Interface\bin\Debug\Home4Us_Models_Interface.pdb
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.csprojResolveAssemblyReference.cache
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.dll
+C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.pdb
+>>>>>>> c9e61d4b4903094bd14f1bae4b0705a5c3059269
