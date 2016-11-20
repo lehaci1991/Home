@@ -45,3 +45,5 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.mdf
+Home4Us/App_Data/Home4Us_log.ldf

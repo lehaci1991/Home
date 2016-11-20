@@ -43,6 +43,6 @@ E:\Home4Us\Home\Home4Us_Models\bin\Debug\EntityFramework.xml
 E:\Home4Us\Home\Home4Us_Models\bin\Debug\EntityFramework.SqlServer.xml
 E:\Home4Us\Home\Home4Us_Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 E:\Home4Us\Home\Home4Us_Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-E:\Home4Us\Home\Home4Us_Models\obj\Debug\Home4Us_Models.csprojResolveAssemblyReference.cache
 E:\Home4Us\Home\Home4Us_Models\obj\Debug\Home4Us_Models.dll
 E:\Home4Us\Home\Home4Us_Models\obj\Debug\Home4Us_Models.pdb
+E:\Home4Us\Home\Home4Us_Models\obj\Debug\Home4Us_Models.csprojResolveAssemblyReference.cache

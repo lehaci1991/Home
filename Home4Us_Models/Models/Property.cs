@@ -7,6 +7,7 @@ namespace Home4Us_Models
     public class Property : BaseClassID
     {
         [Required]
+        [StringLength(20)]
         public string Name { get; set; }
 
         [Required]

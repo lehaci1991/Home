@@ -82,11 +82,12 @@
     <div id="Container-manage">
         <h1 class="glyphicon glyphicon-briefcase"> Manage your properties</h1>
         <div id="table-manage">
+            @using (Html.BeginForm("Create","Admin", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" })) {
             <div class="adminCenter">
                 @Html.LabelFor(n => n.Property.Name)
                 @Html.TextBoxFor(n => n.Property.Name)
                 @*@Html.ValidationMessageFor(m => m.Name)*@
-                </div>
+            </div>
             <div>
                 <div class="adminLeft">
                     @Html.LabelFor(n => n.Address.City)
@@ -111,14 +112,14 @@
                     @Html.ValidationMessageFor(m => m.Address.Apartment)
 
                     @Html.LabelFor(p => p.Details.SpaceM2)
-                    @Html.TextBoxFor(p => p.Details.SpaceM2, new { @placeholder="m2" })
+                    @Html.TextBoxFor(p => p.Details.SpaceM2, new { @placeholder = "m2" })
                     @Html.ValidationMessageFor(m => m.Details.SpaceM2)
                 </div>
             </div>
             <div class="adminLeft">
 
                 <div class="adminLeft">
-                        
+
                     <div class="editor">
                         @Html.LabelFor(n => n.Details.RoomsId.Bathrooms) @Html.TextBoxFor(n => n.Details.RoomsId.Bathrooms)
                         @Html.ValidationMessageFor(m => m.Details.RoomsId.Bathrooms)
@@ -155,34 +156,35 @@
                 </div>
             </div>
 
-                <h2>Other property features</h2>
+            <h2>Other property features</h2>
 
             <div class="adminLeft">
-                  <div class="adminLeft">
-                      <input type="checkbox" class="checkbox" name="quux[1]" checked /><label id="label-space">Balcony</label>
-                      <input type="checkbox" class="checkbox" name="quux[1]" checked /><label id="label-space">Metro</label>
-                  </div>
+                <div class="adminLeft">
+                    <label class="inline">@Html.CheckBox("Balcony") Balcony </label>
+                    <label class="inline">@Html.CheckBox("Metro") Metro</label>
+                </div>
                 <div class="adminRight">
-                    <input type="checkbox" class="checkbox" name="quux[1]" checked /><label id="label-space">Drier</label>
-                    <input type="checkbox" class="checkbox" name="quux[1]" checked /><label id="label-space">Garage</label>
-                    <input type="checkbox" class="checkbox" name="quux[1]" unchecked /><label id="label-space">TV</label>
+                    <label class="inline">@Html.CheckBox("Drier") Drier</label>
+                    <label class="inline">@Html.CheckBox("TV") TV</label>
+                    <label class="inline">Garage @Html.CheckBox("Garage")</label>
                 </div>
             </div>
             <div class="adminRight">
                 <div class="adminLeft">
-                    <input type="checkbox" class="checkbox" name="quux[1]" unchecked><label id="label-space">Bus</label>
-                    <input type="checkbox" class="checkbox" name="quux[1]" checked><label id="label-space">Quiet area</label>
-                    <input type="checkbox" class="checkbox" name="quux[1]" checked><label id="label-space">Internet</label>
+                    <label class="inline">@Html.CheckBox("Bus") Bus</label>
+                    <label class="inline">@Html.CheckBox("Quiet area") Quiet area</label>
+                    <label class="inline">@Html.CheckBox("Internet") Internet</label>
                 </div>
                 <div class="adminRight">
-                    <input type="checkbox" class="checkbox" name="quux[1]" checked><label id="label-space">Storage room</label>
-                    <input type="checkbox" class="checkbox" name="quux[1]" checked><label id="label-space">Pool</label>
+                    <label class="inline">@Html.CheckBox("Storage room") Storage room</label>
+                    <label class="inline">@Html.CheckBox("Pool") Pool</label>
                 </div>
             </div>
+            <button id="btn-uploads" class="glyphicon glyphicon-level-up "></button><label>Uploads photos:</label><a href="#img1">img.jpg</a>
             <br />
-                    <td><button id="btn-uploads" class="glyphicon glyphicon-level-up "></button><label>Uploads photos:</label><a href="#img1">img.jpg</a></td>
+            <button id="my-add" type="submit" class="btn btn-primary ">Add property</button>
 
-                    <td><button id="btn-add" type="submit" class="btn btn-primary">Add</button></td>
+            }
         </div>
     </div>
 

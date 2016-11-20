@@ -32,7 +32,7 @@ namespace Home4Us.Controllers
         {
             try
             {
-                // TODO: Add insert logic here
+                
 
                 return RedirectToAction("Index");
             }

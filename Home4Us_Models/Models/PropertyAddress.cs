@@ -6,6 +6,7 @@ namespace Home4Us_Models
 {
     public class PropertyAddress : BaseClassID
     {
+
         [Required]
         [StringLength(20)]
         public string City { get; set; }

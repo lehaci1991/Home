@@ -8,7 +8,6 @@ namespace Home4Us_Models_BL.BSL
     {
        public UsersService()
         {
-
         }
 
         public static Users GetUser(int id)
