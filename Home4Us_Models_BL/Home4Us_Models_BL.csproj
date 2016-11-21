@@ -49,8 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BSL\AdminService.cs" />
     <Compile Include="BSL\UsersService.cs" />
     <Compile Include="DAL\GenericRepository.cs" />
+    <Compile Include="DAL\RepositoryOrders.cs" />
+    <Compile Include="DAL\RepositoryProperty.cs" />
+    <Compile Include="DAL\RepositoryPropertyAddresses.cs" />
+    <Compile Include="DAL\RepositoryPropertyDetails.cs" />
     <Compile Include="DAL\RepositoryUsers.cs" />
     <Compile Include="DatabaseConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

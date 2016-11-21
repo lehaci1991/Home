@@ -79,16 +79,21 @@
 
         </table>
     </div>
-    <div id="Container-manage">
-        <h1 class="glyphicon glyphicon-briefcase"> Manage your properties</h1>
+    <div id="Container-manage" >
+        <h2 class="glyphicon glyphicon-briefcase contHide"> Manage your properties</h2>
         <div id="table-manage">
-            @using (Html.BeginForm("Create","Admin", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" })) {
+ @using (Html.BeginForm("Create", "Admin", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+ {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
             <div class="adminCenter">
                 @Html.LabelFor(n => n.Property.Name)
                 @Html.TextBoxFor(n => n.Property.Name)
                 @*@Html.ValidationMessageFor(m => m.Name)*@
             </div>
-            <div>
+          
+              <div>
                 <div class="adminLeft">
                     @Html.LabelFor(n => n.Address.City)
                     @Html.TextBoxFor(n => n.Address.City)

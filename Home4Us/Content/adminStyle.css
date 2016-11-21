@@ -299,3 +299,15 @@ img.offerPictures {
     height: 20px;
     padding: 25px;
 }
+
+#table-manage{
+    display: none;
+    background-color:#ccffe6;
+    padding:0;
+}
+
+.contHide{
+    cursor:pointer;
+    background-color: #3385ff;
+    bottom:0;
+}

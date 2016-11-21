@@ -1,4 +1,5 @@
 ﻿using Home4Us_Models.Models;
+using Home4Us_Models.Models.State;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
@@ -17,14 +18,12 @@ namespace Home4Us_Models
         public int DetailsId { get; set; }
 
         [Required]
-        public int StatusId { get; set; }
+        public PropertyState Status { get; set; }
 
         public virtual ICollection<Orders> Orders { get; set; }
 
         public virtual PropertyAddress PropertyAddress { get; set; }
 
         public virtual PropertyDetails PropertyDetails { get; set; }
-
-        public virtual PropertyStatus PropertyStatus { get; set; }
     }
 }

@@ -16,3 +16,8 @@ C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_Interface\obj\D
 C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.dll
 C:\Users\Stefan-C. Paius\Desktop\Git\Home4Us\Home\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.pdb
 >>>>>>> c9e61d4b4903094bd14f1bae4b0705a5c3059269
+E:\Home4Us\Home\Home4Us_Models_Interface\bin\Debug\Home4Us_Models_Interface.dll
+E:\Home4Us\Home\Home4Us_Models_Interface\bin\Debug\Home4Us_Models_Interface.pdb
+E:\Home4Us\Home\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.csprojResolveAssemblyReference.cache
+E:\Home4Us\Home\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.dll
+E:\Home4Us\Home\Home4Us_Models_Interface\obj\Debug\Home4Us_Models_Interface.pdb

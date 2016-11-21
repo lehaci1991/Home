@@ -12,5 +12,7 @@ namespace Home4Us_Models_Interface
         T Update(T entity);
         void Delete(T entity);
         T Read(int id);
+
+        IQueryable<T> Read();
     }
 }

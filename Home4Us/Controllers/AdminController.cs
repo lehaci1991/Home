@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Home4Us.Models;
+using Home4Us_Models_BL.BSL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,6 +15,9 @@ namespace Home4Us.Controllers
         {
             return View();
         }
+        //    var model = new OrdersDetails(new AdminService().GetAllOrders());
+        //    return View(model);
+        //}
 
         // GET: Admin/Details/5
         public ActionResult Details(int id)
@@ -28,18 +33,17 @@ namespace Home4Us.Controllers
 
         // POST: Admin/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(PropertyView model)
         {
-            try
-            {
-                
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
+                if(ModelState.IsValid)
+                {
+                    int dId = AdminService.AddDetails(model.Details.Price, model.Details.SpaceM2,
+                        model.Details.MoreDetails, model.Details.RoomsId, model.Property.ID);
+                    int aId = AdminService.AddAddress(model.Address.City, model.Address.Street,
+                       model.Address.Block, model.Address.Apartment);
+                    AdminService.AddProperty(model.Property.Name, aId, dId);
+                }
+            return View("Index");
         }
 
         // GET: Admin/Edit/5

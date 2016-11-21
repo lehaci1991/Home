@@ -28,6 +28,11 @@ namespace Home4Us_Models_BL.BSL
              Entity.Remove(entity);
         }
 
+        public IQueryable<T> Read()
+        {
+            return Entity;
+        }
+
         public T Read(int id)
         {
            var result =  Entity.FirstOrDefault(x =>x.ID == id);

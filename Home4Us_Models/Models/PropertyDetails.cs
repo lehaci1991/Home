@@ -18,7 +18,6 @@ namespace Home4Us_Models
         [Display(Name = "More Details")]
         [StringLength(500)]
         public string MoreDetails { get; set; }
-
         public virtual ICollection<Property> Property { get; set; }
 
     }

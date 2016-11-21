@@ -19,3 +19,12 @@ $(function(){
 		document.getElementById('formHeader').innerHTML = "Go ahead and creat your account";
 	});
 });
+
+$(function () {
+    $(".contHide").on("click", function () {
+        if (document.getElementById('table-manage').style.display == "none")
+            document.getElementById('table-manage').style.display = "block";
+        else
+            document.getElementById('table-manage').style.display = "none";
+    });
+});

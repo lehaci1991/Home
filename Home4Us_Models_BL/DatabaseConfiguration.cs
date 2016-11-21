@@ -12,7 +12,6 @@ namespace Home4Us_Models_BL
         public virtual DbSet<Property> Property { get; set; }
         public virtual DbSet<PropertyAddress> PropertyAddress { get; set; }
         public virtual DbSet<PropertyDetails> PropertyDetails { get; set; }
-        public virtual DbSet<PropertyStatus> PropertyStatus { get; set; }
         public virtual DbSet<Users> Users { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -45,18 +44,6 @@ namespace Home4Us_Models_BL
                 .HasMany(e => e.Property)
                 .WithRequired(e => e.PropertyDetails)
                 .HasForeignKey(e => e.DetailsId);
-
-
-            modelBuilder.Entity<PropertyStatus>()
-                .Property(e => e.StardDate);
-
-            modelBuilder.Entity<PropertyStatus>()
-                .Property(e => e.EndDate);
-
-            modelBuilder.Entity<PropertyStatus>()
-                .HasMany(e => e.Property)
-                .WithRequired(e => e.PropertyStatus)
-                .HasForeignKey(e => e.StatusId);
 
             modelBuilder.Entity<Users>()
                 .Property(e => e.Email);

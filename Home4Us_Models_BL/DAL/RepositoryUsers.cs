@@ -17,8 +17,6 @@ namespace Home4Us_Models_BL.BSL
         {
             Entity = ((DataBaseConfiguration)context).Users;
         }
-         
-        
 
         public Users GetUser(int id)
         {
