@@ -28,3 +28,13 @@ $(function () {
             document.getElementById('table-manage').style.display = "none";
     });
 });
+
+//File Upload response from the server
+Dropzone.options.dropzoneForm = {
+    init: function () {
+        this.on("complete", function (data) {
+            //var res = eval('(' + data.xhr.responseText + ')');
+            var res = JSON.parse(data.xhr.responseText);
+        });
+    }
+};

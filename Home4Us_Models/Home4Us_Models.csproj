@@ -63,6 +63,7 @@
     <Compile Include="Models\Property.cs" />
     <Compile Include="Models\PropertyAddress.cs" />
     <Compile Include="Models\PropertyDetails.cs" />
+    <Compile Include="Models\PropertyPhotos.cs" />
     <Compile Include="Models\PropertyView.cs" />
     <Compile Include="Models\Rooms.cs" />
     <Compile Include="Models\State\PropertyState.cs" />

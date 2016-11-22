@@ -27,6 +27,14 @@ namespace Home4Us
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
                       "~/Content/adminStyle.css"));
+
+            //dropzone
+            bundles.Add(new ScriptBundle("~/bundles/dropzonescripts").Include(
+                     "~/Scripts/dropzone/dropzone.js"));
+
+            bundles.Add(new StyleBundle("~/Content/dropzonescss").Include(
+                     "~/Scripts/dropzone/css/basic.css",
+                     "~/Scripts/dropzone/css/dropzone.css"));
         }
     }
 }

@@ -20,6 +20,9 @@ namespace Home4Us_Models
         [Required]
         public PropertyState Status { get; set; }
 
+        [Required]
+        public int PhotosId { get; set; }
+
         public virtual ICollection<Orders> Orders { get; set; }
 
         public virtual PropertyAddress PropertyAddress { get; set; }

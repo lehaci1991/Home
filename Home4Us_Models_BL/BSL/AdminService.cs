@@ -17,14 +17,15 @@ namespace Home4Us_Models_BL.BSL
         {
         }
 
-        public static void AddProperty(string name, int address, int detail)
+        public static void AddProperty(string name, int address, int detail, int photo)
         {
             var property = new Property
             {
                 Name = name,
                 AddressId = address,
                 DetailsId = detail,
-                Status = PropertyState.Waiting
+                Status = PropertyState.Waiting,
+                PhotosId = photo
             };
 
             using(var context = new RepositoryProperty())
@@ -63,6 +64,18 @@ namespace Home4Us_Models_BL.BSL
             using (var context = new RepositoryPropertyAddresses())
             {
                 return context.AddAddress(address);
+            };
+        }
+
+        public static int AddPhoto(string photo)
+        {
+            var p = new PropertyPhotos
+            {
+                Photo = photo
+            };
+            using (var context = new RepositoryPropertyPhotos())
+            {
+                return context.CreatePhotos(p);
             };
         }
 

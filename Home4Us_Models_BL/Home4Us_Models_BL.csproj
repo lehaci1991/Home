@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BSL\AdminService.cs" />
+    <Compile Include="DAL\RepositoryPropertyPhotos.cs" />
     <Compile Include="BSL\UsersService.cs" />
     <Compile Include="DAL\GenericRepository.cs" />
     <Compile Include="DAL\RepositoryOrders.cs" />

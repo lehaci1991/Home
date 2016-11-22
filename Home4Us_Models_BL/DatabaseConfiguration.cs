@@ -1,4 +1,5 @@
 ﻿using Home4Us_Models;
+using Home4Us_Models.Models;
 using System.Data.Entity;
 
 namespace Home4Us_Models_BL
@@ -14,12 +15,13 @@ namespace Home4Us_Models_BL
         public virtual DbSet<PropertyDetails> PropertyDetails { get; set; }
         public virtual DbSet<Users> Users { get; set; }
 
+        public virtual DbSet<PropertyPhotos> Photos { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Property>()
                   .HasMany(e => e.Orders)
                   .WithRequired(e => e.Property);
-
 
             modelBuilder.Entity<PropertyAddress>()
                 .Property(e => e.City);
@@ -35,15 +37,16 @@ namespace Home4Us_Models_BL
                 .WithRequired(e => e.PropertyAddress)
                 .HasForeignKey(e => e.AddressId);
 
-
             modelBuilder.Entity<PropertyDetails>()
                 .Property(e => e.MoreDetails);
-
 
             modelBuilder.Entity<PropertyDetails>()
                 .HasMany(e => e.Property)
                 .WithRequired(e => e.PropertyDetails)
                 .HasForeignKey(e => e.DetailsId);
+
+            modelBuilder.Entity<PropertyPhotos>()
+                .Property(e=>e.Photo);
 
             modelBuilder.Entity<Users>()
                 .Property(e => e.Email);
@@ -64,7 +67,6 @@ namespace Home4Us_Models_BL
                 .HasMany(e => e.Orders)
                 .WithRequired(e => e.Users)
                 .HasForeignKey(e => e.UserId);
-
         }
     }
 }

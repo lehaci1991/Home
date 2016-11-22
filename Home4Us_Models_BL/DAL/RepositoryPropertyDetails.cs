@@ -7,11 +7,9 @@ namespace Home4Us_Models_BL.DAL
 {
     public class RepositoryPropertyDetails : GenericRepository<PropertyDetails>, IDisposable
     {
-
         public RepositoryPropertyDetails()
             :this(new DataBaseConfiguration())
         {
-
         }
 
         public RepositoryPropertyDetails(DbContext context) : base(context)

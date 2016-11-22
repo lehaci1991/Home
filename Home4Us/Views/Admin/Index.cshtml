@@ -82,7 +82,7 @@
     <div id="Container-manage" >
         <h2 class="glyphicon glyphicon-briefcase contHide"> Manage your properties</h2>
         <div id="table-manage">
- @using (Html.BeginForm("Create", "Admin", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+ @using (Html.BeginForm("Create", "Admin", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form", data_ajax="false", enctype="multipart/form-data" }))
  {
     @Html.AntiForgeryToken()
     @Html.ValidationSummary(true)
@@ -185,10 +185,16 @@
                     <label class="inline">@Html.CheckBox("Pool") Pool</label>
                 </div>
             </div>
-            <button id="btn-uploads" class="glyphicon glyphicon-level-up "></button><label>Uploads photos:</label><a href="#img1">img.jpg</a>
-            <br />
-            <button id="my-add" type="submit" class="btn btn-primary ">Add property</button>
-
+            
+            /*drag and drop*/
+            <div class="jumbotron">
+                <div enctype="multipart/form-data" class="dropzone" id="dropzoneForm" >
+                    <div class="fallback">
+                        <input name="file" type="file" multiple />
+                        <input type="submit" value="Add property" />
+                    </div>
+                </div>
+            </div>
             }
         </div>
     </div>
@@ -197,7 +203,7 @@
         <div id="bottomBanner" class="col-sm-12">
             <div class="col-sm-4">
                 <h3>About Us</h3>
-                <h4 id="aboutDescription">
+                <h5 id="aboutDescription">
                     An hotel is an establishment that provides
                     lodging paid on a short-term basis.
                     Facilities provided may range from a
@@ -206,14 +212,14 @@
                     higher-quality beds, a dresser,
                     a fridge and other kitchen facilities,
                     upholstered chairs, a flatscreen television and en-suite bathrooms.
-                </h4>
+                </h5>
             </div>
 
             <div class="col-sm-4">
                 <h3>Contact us</h3>
-                <h4>Triple Threat Software</h4>
-                <h4>128 John Lemon Avenue <br> Cluj-Napoca,Romania</h4>
-                <h4>+40263 887 887</h4>
+                <h5>Triple Threat Software</h5>
+                <h5>128 John Lemon Avenue <br> Cluj-Napoca,Romania</h5>
+                <h5>+40263 887 887</h5>
                 <a href="#e-mail">ttsoft@gmail.com</a>
             </div>
 
@@ -230,11 +236,11 @@
 
         <div id="bottom-bar" class="col-sm-12">
             <div class="col-sm-8">
-                <h3>&copyTriple Threat Software, Powered by Fortech</h3>
+                <h4>&copyTriple Threat Software, Powered by Fortech</h4>
             </div>
             <div class="col-sm-4">
                 <span id="paymentOptions" class="col-sm-8">
-                    <h3 class="payment">We accept</h3>
+                    <h4 class="payment">We accept</h4>
                     <img class="logo payment" src="visa.png" alt="vista">
                     <img class="logo payment" src="css/img/mastercard.png" alt="mastercard">
                 </span>

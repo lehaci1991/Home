@@ -17,6 +17,8 @@ namespace Home4Us_Models
         public virtual DbSet<Users> Users { get; set; }
         public virtual DbSet<Rooms> Rooms { get; set; }
 
+        public virtual DbSet<PropertyPhotos> Photos { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Property>()
@@ -82,6 +84,9 @@ namespace Home4Us_Models
             modelBuilder.Entity<Rooms>()
                 .Property(e => e.Storage);
 
+            modelBuilder.Entity<PropertyPhotos>()
+                .Property(e => e.Photo);
+            modelBuilder.Entity<PropertyPhotos>();
         }
     }
 }
